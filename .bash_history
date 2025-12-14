@@ -138,3 +138,14 @@ echo -e '#!/bin/bash\nhead -n 3 iacta | tail -n 1' > 3-third_line
 chmod +x 3-third_line
 ./3-third_line
 cd ..
+git add .
+git commit -m 'adding third line file'
+git push
+cd shell_redirections
+echo '#!/bin/bash\nls -la' > 4-cwd_state
+chmod +x 4-cwd_state
+./4-cwd_state
+echo -e '#!/bin/bash\nls -la' > 4-cwd_state
+chmod +x 4-cwd_state
+./4-cwd_state
+cd ..
