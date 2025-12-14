@@ -106,3 +106,35 @@ echo -e '#!/bin/bash\nhead -n 10 /etc/passwd' > 2-firstlines
 chmod +x 2-firstlines
 ./2-firstlines
 cd ..
+git add .
+git commit -m 'first lines file added'
+git push
+cd shell_redirections
+ls
+cwd
+wd
+pwd
+cd ..
+ls
+cd root
+ls
+cd home
+cd ..
+cd home
+ls
+cd ..
+ls
+cd..
+cd ..
+lks
+ls
+cd root
+ls
+cd shell_redirections
+touch iacta
+echo -e 'this is iacta\nwelcome to iacta\nhello iacta' > iacta
+cat iacta
+echo -e '#!/bin/bash\nhead -n 3 iacta | tail -n 1' > 3-third_line
+chmod +x 3-third_line
+./3-third_line
+cd ..
