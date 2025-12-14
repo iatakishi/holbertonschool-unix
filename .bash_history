@@ -165,3 +165,13 @@ echo -e '#!/bin/bash\nls -la > ls_cwd_content' > 4-cwd_state
 ls_cwd_content
 cat ls_cwd_content
 cd ..
+git add .
+git commit -m 'adding cwd_state'
+git push -u origin main
+cd shell_redirections
+echo -e '#!/bin/bash\ngrep -v 'bin' /etc/passwd' > 5-hidethisword
+chmod +x 5-hidethisword
+./5-hidethisword
+cat etc/passwd
+cat /etc/passwd
+cd ..
