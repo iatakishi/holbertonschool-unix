@@ -149,3 +149,19 @@ echo -e '#!/bin/bash\nls -la' > 4-cwd_state
 chmod +x 4-cwd_state
 ./4-cwd_state
 cd ..
+git checkout -f -b main origin/main
+git branch
+ls
+cd shell_redirections
+echo -e '#!/bin/bash\necho -e 'ls -la' > ls_cwdcontent' > 4-cwd_state
+./4-cwd_state
+cat ls_cwd_content
+chmod +x 4-cwd_state
+./4-cwd_state
+ls_cwd_content
+cat ls_cwd_content
+echo -e '#!/bin/bash\nls -la > ls_cwd_content' > 4-cwd_state
+./4-cwd_state
+ls_cwd_content
+cat ls_cwd_content
+cd ..

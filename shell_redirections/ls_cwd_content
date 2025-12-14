@@ -1,0 +1,11 @@
+total 40
+drwxr-xr-x. 2 root root 4096 Dec 14 13:10 .
+drwx------. 1 root root 4096 Dec 14 13:00 ..
+-rwxr-xr-x. 1 root root   28 Dec 14 13:00 0-hellofile
+-rwxr-xr-x. 1 root root   35 Dec 14 13:00 1-lastlines
+-rwxr-xr-x. 1 root root   35 Dec 14 13:00 2-firstlines
+-rwxr-xr-x. 1 root root   40 Dec 14 13:00 3-third_line
+-rwxr-xr-x. 1 root root   36 Dec 14 13:10 4-cwd_state
+-rw-r--r--. 1 root root   43 Dec 14 13:00 iacta
+-rw-r--r--. 1 root root    0 Dec 14 13:10 ls_cwd_content
+-rw-r--r--. 1 root root    7 Dec 14 13:04 ls_cwdcontent
