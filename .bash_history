@@ -98,3 +98,11 @@ echo -e '#!/bin/bash\ntail -n 10 /etc/passwd'
 echo -e '#!/bin/bash\ntail -n 10 /etc/passwd' > 1-lastlines
 ./1-lastlines
 cd ..
+git add .
+git commit -m 'adding #!/bin/bash statement to lastlines'
+git push
+cd shell_redirections
+echo -e '#!/bin/bash\nhead -n 10 /etc/passwd' > 2-firstlines
+chmod +x 2-firstlines
+./2-firstlines
+cd ..
