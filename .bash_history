@@ -53,3 +53,40 @@ chmod +x 0-hellofile
 ./0-hellofile
 cd ..
 git branch
+git add .
+git commit -m 'shell_redirections and 0-hellofile is added'
+git push
+git branch
+git branch -r
+git git branch -m master main
+git branch -m master main
+git branch
+git push -u origin main
+git push origin main
+git push -f origin main
+git push -u origin main
+/etc
+ls
+cd /etc
+ls
+cd ..
+cd shell_redirections
+ls
+cd ..
+ls
+cd home
+ls
+cd ..
+ls
+pwd
+cd
+ls#
+ls
+pwd
+cd shell_redirections
+git branch
+tail -n 10 /etc/passwd
+echo -e 'tail -n 10 /etc/passwd' > 1-lastlines
+chmod +x 1-lastlines
+./1-lastlines
+cd ..
