@@ -90,3 +90,11 @@ echo -e 'tail -n 10 /etc/passwd' > 1-lastlines
 chmod +x 1-lastlines
 ./1-lastlines
 cd ..
+git add .
+git commit -m 'this is adding lastlines file to show last 10 lines'
+git push
+cd shell_redirections
+echo -e '#!/bin/bash\ntail -n 10 /etc/passwd'
+echo -e '#!/bin/bash\ntail -n 10 /etc/passwd' > 1-lastlines
+./1-lastlines
+cd ..
